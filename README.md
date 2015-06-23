@@ -23,6 +23,7 @@ apt-get install \
     libfreetype6 libfreetype6-dev openssl libcurl3-openssl-dev \
     libpcre3 libpcre3-dev \
     libicu-dev 
+```
 
 ### ngxin rewrte libpcre3-dev
 ### php --enable-intl libicu-dev
