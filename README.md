@@ -24,8 +24,11 @@ apt-get install \
     libpcre3 libpcre3-dev \
     libicu-dev 
 
-#ngxin rewrte libpcre3-dev
-#php --enable-intl libicu-dev
+### ngxin rewrte libpcre3-dev
+### php --enable-intl libicu-dev
+
+## php configure options
+
 ```
 ./configure --prefix=/usr/local/php5.6.10 \
 --with-libxml-dir \
