@@ -61,3 +61,8 @@ apt-get install \
 --with-fpm-group=www-data
 
 ```
+
+## thrift complie
+```
+./configure --prefix=/usr/local/thrift --with-go --with-libevent --with-zlib
+```
