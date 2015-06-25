@@ -24,11 +24,11 @@ apt-get install \
     libpcre3 libpcre3-dev \
     libicu-dev 
 ```
-
-### ngxin rewrte libpcre3-dev
-### php --enable-intl libicu-dev
-
-## php configure options
+```
+// ngxin rewrte libpcre3-dev
+// php --enable-intl libicu-dev
+```
+## 4. php configure options
 
 ```
 ./configure --prefix=/usr/local/php5.6.10 \
@@ -62,7 +62,7 @@ apt-get install \
 
 ```
 
-## thrift complie
+## 5. thrift complie
 ```
 ./configure --prefix=/usr/local/thrift --with-go --with-libevent --with-zlib
 ```
