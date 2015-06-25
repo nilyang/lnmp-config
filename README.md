@@ -64,6 +64,6 @@ apt-get install \
 
 ## 5. thrift complie
 ```
-shell> sudo apt-get install golang
+shell> sudo apt-get install golang python-pip
 shell> ./configure --prefix=/usr/local/thrift --with-go --with-libevent --with-zlib
 ```
